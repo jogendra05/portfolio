@@ -3,16 +3,16 @@ export default function Home() {
       <section className="home relative grid gap-20 py-16 md:py-32" id="home">
         <div className="home__data self-center">
           <h1 className="home__title text-4xl md:text-7xl font-bold mb-8">
-            Hi,<br />I'am <span className="text-first-color">Jogendra</span><br /> Web Designer
+            Hi,<br />I'am <span className="text-[hsl(224,89%,60%)]">Jogendra</span><br /> Web Designer
           </h1>
-          <a href="#contact" className="button bg-first-color text-white py-3 px-8 rounded-lg font-semibold hover:shadow-lg transition-shadow">
+          <a href="#contact" classNam e="button bg-[hsl(224,89%,60%)] text-white py-3 px-8 rounded-lg font-semibold hover:shadow-lg transition-shadow">
             Contact
           </a>
         </div>
   
         <div className="home__social flex flex-col gap-4">
           {['bxl-linkedin', 'bxl-behance', 'bxl-github'].map((icon) => (
-            <a key={icon} href="#" className="home__social-icon text-2xl text-second-color hover:text-first-color transition-colors">
+            <a key={icon} href="#" className="home__social-icon text-2xl text-[hsl(224,56%,12%)] hover:text-[hsl(224,89%,60%)] transition-colors">
               <i className={`bx ${icon}`}></i>
             </a>
           ))}

@@ -5,6 +5,7 @@ import "./App.css";
 import Home from "./Components/Home";
 import Header from "./Components/Header";
 import ScrollReveal from 'scrollreveal';
+import About from "./Components/About";
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
     <>
       <Header activeSection={activeSection} />
       <Home/>
+      <About/>
     </>
   );
 }
